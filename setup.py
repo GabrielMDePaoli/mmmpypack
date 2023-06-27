@@ -5,7 +5,7 @@ with open("app/README.md", "r") as f:
 
 setup(
     name="mmmpypack",
-    version="0.0.1",
+    version="0.0.2",
     description="Pacote Python com classes e funções recorrentes no MMM.",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
@@ -20,7 +20,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
     ],
-    install_requires=["pandas","numpy","scikit-learn","termcolor","joblib","statsmodels"],
+    install_requires=["pandas>=2.0.2","numpy>=1.24.3","scikit-learn>1.2.2","termcolor>=2.3.0","joblib>=1.2.0","statsmodels>=0.14.0", "feature_engine>1.6.1"],
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
     },

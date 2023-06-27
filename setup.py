@@ -4,14 +4,14 @@ with open("app/README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="mmm_pypack",
+    name="mmmpypack",
     version="0.0.1",
     description="Pacote Python com classes e funções recorrentes no MMM.",
     # package_dir={"": "app"},
     # packages=find_packages(where="app"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/GabrielMDePaoli/mmm_pypack",
+    url="https://github.com/GabrielMDePaoli/mmmpypack",
     author="Squad MMM",
     author_email="mousse@arjancodes.com",
     license="MIT",

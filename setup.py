@@ -4,7 +4,7 @@ with open("app/README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="mmm-pypack",
+    name="mmm_pypack",
     version="0.0.1",
     description="Pacote Python com classes e funções recorrentes no MMM.",
     # package_dir={"": "app"},

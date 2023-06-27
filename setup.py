@@ -11,7 +11,7 @@ setup(
     # packages=find_packages(where="app"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/GabrielMDePaoli/mmm-pypack",
+    url="https://github.com/GabrielMDePaoli/mmm_pypack",
     author="Squad MMM",
     author_email="mousse@arjancodes.com",
     license="MIT",

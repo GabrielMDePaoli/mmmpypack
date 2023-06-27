@@ -7,13 +7,13 @@ setup(
     name="mmmpypack",
     version="0.0.1",
     description="Pacote Python com classes e funções recorrentes no MMM.",
-    # package_dir={"": "app"},
-    # packages=find_packages(where="app"),
+    package_dir={"": "app"},
+    packages=find_packages(where="app"),
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/GabrielMDePaoli/mmmpypack",
     author="Squad MMM",
-    author_email="mousse@arjancodes.com",
+    author_email="mousse@claro.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -24,5 +24,5 @@ setup(
     extras_require={
         "dev": ["pytest>=7.0", "twine>=4.0.2"],
     },
-    python_requires=">=3.10",
+    python_requires=">=3.9",
 )
